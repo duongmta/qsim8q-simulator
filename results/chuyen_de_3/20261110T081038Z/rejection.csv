@@ -1,0 +1,25 @@
+﻿case,layer,outcome,message,core_called,pass
+Phép đo (measure),backend,ValueError,Statevector backend does not accept classical bits/measurement.,False,True
+Reset,backend,ValueError,Unsupported instruction 'reset'; transpile for QSim8Q first.,False,True
+Cổng ngoài tập hỗ trợ (CCX) chưa transpile,backend,ValueError,Unsupported instruction 'ccx'; transpile for QSim8Q first.,False,True
+Tham số chưa gán giá trị,backend,ValueError,Bind all parameters with assign_parameters() before run().,False,True
+9 qubit,backend,ValueError,QSim8Q supports 1..8 qubits.,False,True
+CX điều khiển mở (ctrl_state=0),backend,ValueError,Unsupported instruction 'cx_o0'; transpile for QSim8Q first.,False,True
+"Cổng tự định nghĩa trùng tên ""h""",backend,ValueError,Unsupported instruction 'h'; transpile for QSim8Q first.,False,True
+Độ sâu 21 lớp,backend,ValueError,Circuit exceeds 20 logical layers after transpilation.,False,True
+Lệnh điều kiện cổ điển (if_test),backend,ValueError,Statevector backend does not accept classical bits/measurement.,False,True
+Tùy chọn shots=1024,backend,ValueError,QSim8Q accepts no run options: shots/noise/measurement are unsupported.,False,True
+Hai mạch trong một lần run,backend,ValueError,QSim8Q accepts exactly one circuit per run().,False,True
+CRC sai (1 byte cuối bị đảo),core,ERROR code 2,CRC mismatch.,False,True
+Phiên bản giao thức sai,core,ERROR code 1,Invalid protocol header.,False,True
+Độ dài payload không chia hết 16,core,ERROR code 3,Invalid RUN length.,False,True
+Số qubit = 9,core,ERROR code 3,"Invalid qubits, basis or instruction count.",False,True
+Trạng thái đầu vượt 2^n,core,ERROR code 3,"Invalid qubits, basis or instruction count.",False,True
+257 lệnh,core,ERROR code 1,Invalid protocol header.,False,True
+Opcode 12 (không tồn tại),core,ERROR code 3,"Invalid opcode, operand or rotation coefficients.",False,True
+Qubit đích ≥ n,core,ERROR code 3,"Invalid opcode, operand or rotation coefficients.",False,True
+CNOT điều khiển trùng đích,core,ERROR code 3,"Invalid opcode, operand or rotation coefficients.",False,True
+Cổng một qubit có trường control,core,ERROR code 3,"Invalid opcode, operand or rotation coefficients.",False,True
+Hệ số quay không chuẩn hóa,core,ERROR code 3,"Invalid opcode, operand or rotation coefficients.",False,True
+Bit dự phòng khác 0,core,ERROR code 3,"Invalid opcode, operand or rotation coefficients.",False,True
+Lệnh không xác định (type 0x07),core,ERROR code 1,Unknown command or invalid HELLO length.,False,True

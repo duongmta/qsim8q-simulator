@@ -1,0 +1,35 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../../../../hls/qsim8_tb.cpp in debug mode
+   Compiling ../../../../../../../hls/qsim8.cpp in debug mode
+   Generating csim.exe
+individual_complex_gate n=1 instructions=1 max_error=4.62145e-10 norm=1 PASS
+individual_complex_gate n=1 instructions=1 max_error=0 norm=1 PASS
+individual_complex_gate n=1 instructions=1 max_error=0 norm=1 PASS
+individual_complex_gate n=1 instructions=1 max_error=0 norm=1 PASS
+individual_complex_gate n=1 instructions=1 max_error=0 norm=1 PASS
+individual_complex_gate n=1 instructions=1 max_error=2.83551e-10 norm=1 PASS
+individual_complex_gate n=1 instructions=1 max_error=6.94643e-10 norm=1 PASS
+individual_complex_gate n=1 instructions=1 max_error=7.01753e-10 norm=1 PASS
+individual_complex_gate n=1 instructions=1 max_error=6.042e-10 norm=1 PASS
+controlled_nonadjacent n=2 instructions=2 max_error=0 norm=1 PASS
+controlled_nonadjacent n=3 instructions=2 max_error=0 norm=1 PASS
+controlled_nonadjacent n=4 instructions=2 max_error=0 norm=1 PASS
+controlled_nonadjacent n=5 instructions=2 max_error=0 norm=1 PASS
+controlled_nonadjacent n=6 instructions=2 max_error=0 norm=1 PASS
+controlled_nonadjacent n=7 instructions=2 max_error=0 norm=1 PASS
+controlled_nonadjacent n=8 instructions=2 max_error=0 norm=1 PASS
+depth20_all_targets n=1 instructions=20 max_error=1.75027e-09 norm=1 PASS
+depth20_all_targets n=2 instructions=40 max_error=2.0209e-09 norm=1 PASS
+depth20_all_targets n=3 instructions=60 max_error=4.0179e-09 norm=1 PASS
+depth20_all_targets n=4 instructions=80 max_error=4.08366e-09 norm=1 PASS
+depth20_all_targets n=5 instructions=100 max_error=6.82594e-09 norm=1 PASS
+depth20_all_targets n=6 instructions=120 max_error=5.90413e-09 norm=1 PASS
+depth20_all_targets n=7 instructions=140 max_error=6.65143e-09 norm=1 PASS
+depth20_all_targets n=8 instructions=160 max_error=8.22914e-09 norm=1 PASS
+swap_q0_q7 n=8 instructions=3 max_error=0 norm=1 PASS
+240_native_instructions n=8 instructions=240 max_error=0 norm=1 PASS
+256_instruction_boundary n=8 instructions=256 max_error=1.31709e-09 norm=1 PASS
+empty_program n=1 instructions=0 max_error=0 norm=1 PASS
+QSIM8_TEST=PASS cases=30 failures=0
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

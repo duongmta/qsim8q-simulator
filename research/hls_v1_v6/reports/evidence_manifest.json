@@ -1,0 +1,99 @@
+{
+  "generated_utc": "2026-09-14T04:02:14.425874+00:00",
+  "controlled_configuration": {
+    "part": "xc7z010clg400-1",
+    "clock_ns": 10,
+    "clock_uncertainty_ns": 1,
+    "max_qubits": 8,
+    "state_count": 256,
+    "max_instructions": 256,
+    "numeric_type": "Q2.30",
+    "top": "quantum_simulator"
+  },
+  "versions": {
+    "v1": {
+      "sources": {
+        "qsim_hls.h": "2590e3cd5f48a3b5fd4ae7c14c8fc7346f6ef5fe769f5831645340efcd5871d5",
+        "qsim_hls.cpp": "3c237c25106bd305e4af2fe19fc2766a7133c6394b62a66784191828c4008483",
+        "qsim_tb.cpp": "cfb38d29427abd0c6a3b4fde84bc9b35291f61ec24ca64a746ab4ba120047330",
+        "hls_config.cfg": "35fe4daebacb825910a22ec833e766dce4bb2037989b3ea1790af11814c8ed91"
+      },
+      "host_functional_log": "reports\\functional_logs\\v1.log",
+      "host_functional_sha256": "9b6d3d4660befb35e24de641ff435d6f3085a029a36aa1899b1860b4a0146435",
+      "compile_report": "build\\gui_workspace\\qsim8_v1\\qsim8_v1\\reports\\hls_compile.rpt",
+      "compile_sha256": "7a1292a2b0700e6d530f09b095d7d4abc4a9f6c0eaf40f258d2e83bf87c7cad8",
+      "cosim_report": "build\\gui_workspace\\qsim8_v1\\qsim8_v1\\reports\\hls_cosim.rpt",
+      "cosim_sha256": "dd3880219f65d8b46a8040ef2d013eefe8ce2b775423e34bed18b355961738a6"
+    },
+    "v2": {
+      "sources": {
+        "qsim_hls.h": "2590e3cd5f48a3b5fd4ae7c14c8fc7346f6ef5fe769f5831645340efcd5871d5",
+        "qsim_hls.cpp": "3c237c25106bd305e4af2fe19fc2766a7133c6394b62a66784191828c4008483",
+        "qsim_tb.cpp": "cfb38d29427abd0c6a3b4fde84bc9b35291f61ec24ca64a746ab4ba120047330",
+        "hls_config.cfg": "e6e52fc0e8e03fcb52d4e819ef6da6198993ed1ee2b12ef46d4420503771be41"
+      },
+      "host_functional_log": "reports\\functional_logs\\v2.log",
+      "host_functional_sha256": "9b6d3d4660befb35e24de641ff435d6f3085a029a36aa1899b1860b4a0146435",
+      "compile_report": "build\\gui_workspace\\qsim8_v2\\qsim8_v2\\reports\\hls_compile.rpt",
+      "compile_sha256": "662d4e9ce7de31c852e162c114f7d4f038cd3535c6edebe936067db1e60ab621",
+      "cosim_report": "build\\gui_workspace\\qsim8_v2\\qsim8_v2\\reports\\hls_cosim.rpt",
+      "cosim_sha256": "752967543614a4d6ba6f0851498614505376afd662042aa3191112505f4a8486"
+    },
+    "v3": {
+      "sources": {
+        "qsim_hls.h": "a48f6bfcacffb4aa66df48b6831346c53b939f3274d6ce870a6e55d7e609b86e",
+        "qsim_hls.cpp": "3c237c25106bd305e4af2fe19fc2766a7133c6394b62a66784191828c4008483",
+        "qsim_tb.cpp": "cfb38d29427abd0c6a3b4fde84bc9b35291f61ec24ca64a746ab4ba120047330",
+        "hls_config.cfg": "e6e52fc0e8e03fcb52d4e819ef6da6198993ed1ee2b12ef46d4420503771be41"
+      },
+      "host_functional_log": "reports\\functional_logs\\v3.log",
+      "host_functional_sha256": "9b6d3d4660befb35e24de641ff435d6f3085a029a36aa1899b1860b4a0146435",
+      "compile_report": "build\\gui_workspace\\qsim8_v3\\qsim8_v3\\reports\\hls_compile.rpt",
+      "compile_sha256": "26924ce72290178423cbeab080ac87600051068c951b905185f4003b6c5faaba",
+      "cosim_report": "build\\gui_workspace\\qsim8_v3\\qsim8_v3\\reports\\hls_cosim.rpt",
+      "cosim_sha256": "bcdedce1b954b43d6d3f3435a5c72fcbf44e410337c7079843531a994308b4a0"
+    },
+    "v4": {
+      "sources": {
+        "qsim_hls.h": "a48f6bfcacffb4aa66df48b6831346c53b939f3274d6ce870a6e55d7e609b86e",
+        "qsim_hls.cpp": "a765ea9613ce6cc4e70238413e1909621700d30ee3e00d0b5c334d3b175c3dc4",
+        "qsim_tb.cpp": "cfb38d29427abd0c6a3b4fde84bc9b35291f61ec24ca64a746ab4ba120047330",
+        "hls_config.cfg": "e6e52fc0e8e03fcb52d4e819ef6da6198993ed1ee2b12ef46d4420503771be41"
+      },
+      "host_functional_log": "reports\\functional_logs\\v4.log",
+      "host_functional_sha256": "9b6d3d4660befb35e24de641ff435d6f3085a029a36aa1899b1860b4a0146435",
+      "compile_report": "build\\gui_workspace\\qsim8_v4\\qsim8_v4\\reports\\hls_compile.rpt",
+      "compile_sha256": "5a5bea5fe6cd53840cdeaaa62a44997faa3d188b141a9f5800fff2c18689733f",
+      "cosim_report": "build\\gui_workspace\\qsim8_v4\\qsim8_v4\\reports\\hls_cosim.rpt",
+      "cosim_sha256": "c7a1ec76ea87bd59e5b187a2a80366c469acddb5f1c49c9d3322d10a86e2c34f"
+    },
+    "v5": {
+      "sources": {
+        "qsim_hls.h": "f73b73c23cfdf7bfaeb2b5e20dc51f033bc422214c16b92614f7946682cefc8b",
+        "qsim_hls.cpp": "af6c71ff44829bf6c181c49a5d182c0180ecd25543be39936d47afb0ed777d29",
+        "qsim_tb.cpp": "cfb38d29427abd0c6a3b4fde84bc9b35291f61ec24ca64a746ab4ba120047330",
+        "hls_config.cfg": "e6e52fc0e8e03fcb52d4e819ef6da6198993ed1ee2b12ef46d4420503771be41"
+      },
+      "host_functional_log": "reports\\functional_logs\\v5.log",
+      "host_functional_sha256": "9b6d3d4660befb35e24de641ff435d6f3085a029a36aa1899b1860b4a0146435",
+      "compile_report": "build\\gui_workspace\\qsim8_v5\\qsim8_v5\\reports\\hls_compile.rpt",
+      "compile_sha256": "cb951e753fde74df54a52f641cf51bd101ea14b5346a4912fce2a5956418c31f",
+      "cosim_report": "build\\gui_workspace\\qsim8_v5\\qsim8_v5\\reports\\hls_cosim.rpt",
+      "cosim_sha256": "5b4d09f38d18d602fb0f4739a2f5ade2585444773c94f3b8d92ef11064c97e25"
+    },
+    "v6": {
+      "sources": {
+        "qsim_hls.h": "5de9d126bcba240bfcdda620f5c9a95cdd45d086fa67401809dfcc9f6d65804a",
+        "qsim_hls.cpp": "9c38ecbe5680eab09a1b09f5b1c7016d4c326e3ebdef70433799e0139532bf64",
+        "qsim_tb.cpp": "cfb38d29427abd0c6a3b4fde84bc9b35291f61ec24ca64a746ab4ba120047330",
+        "hls_config.cfg": "e6e52fc0e8e03fcb52d4e819ef6da6198993ed1ee2b12ef46d4420503771be41"
+      },
+      "host_functional_log": "reports\\functional_logs\\v6.log",
+      "host_functional_sha256": "9b6d3d4660befb35e24de641ff435d6f3085a029a36aa1899b1860b4a0146435",
+      "compile_report": "build\\gui_workspace\\qsim8_v6\\qsim8_v6\\reports\\hls_compile.rpt",
+      "compile_sha256": "19c23ad3b5faefea2fcf93975f886c30af03130cdf62e6ed476b352b67e1242e",
+      "cosim_report": "build\\gui_workspace\\qsim8_v6\\qsim8_v6\\reports\\hls_cosim.rpt",
+      "cosim_sha256": "d81f7f22eecd51f21fdcfcb68383d116181b90f99e9dc7310208823cea6edc10"
+    }
+  }
+}

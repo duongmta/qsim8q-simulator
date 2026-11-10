@@ -1,0 +1,21 @@
+# Environment and Python build products are local to each machine.
+/.venv/
+/.pytest_cache/
+**/__pycache__/
+**/*.py[cod]
+/*.egg-info/
+/cpu_profile/build/
+/research/hls_v1_v6/build/
+**/pytest_tmp/
+
+# Generated run records may contain local paths and COM settings.
+/results/**/run.log
+/results/**/pytest.txt
+/results/**/environment.json
+/results/**/manifest.json
+/evidence/cpu/**/manifest.json
+/results/cpu_profiling/latest_manifest.json
+/evidence/hls/**/hls_compile.rpt
+/experiments/cd3_python_core/build/*.log
+/experiments/cd3_python_core/build/*.txt
+

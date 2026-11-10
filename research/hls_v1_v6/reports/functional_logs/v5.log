@@ -1,0 +1,27 @@
+HLS STANDARD C-SIM VALIDATION - 18 TESTS
+Scope: 1..8 qubits, max 256 instructions, HLS Q2.30 vs FP32 reference
+Criteria: Emax <= 0.01, Fidelity >= 0.99, |norm-1| <= 0.01
+
+TEST                   Q   GATES      MAX_ERROR       FIDELITY     NORM_ERROR    RESULT
+---------------------------------------------------------------------------------------
+T01_X_1Q               1       1      0.000e+00   1.0000000000      0.000e+00      PASS
+T02_H_1Q               1       1      1.211e-08   1.0000000000      1.577e-11      PASS
+T03_Y_1Q               1       1      0.000e+00   1.0000000000      0.000e+00      PASS
+T04_HZ_1Q              1       2      1.211e-08   1.0000000000      1.577e-11      PASS
+T05_HS_1Q              1       2      1.211e-08   1.0000000000      1.577e-11      PASS
+T06_HT_1Q              1       2      4.215e-08   1.0000000000      7.886e-12      PASS
+T07_RX_1Q              1       1      0.000e+00   1.0000000000      2.692e-08      PASS
+T08_RY_1Q              1       1      0.000e+00   1.0000000000      6.973e-09      PASS
+T09_HRZ_1Q             1       2      1.152e-08   1.0000000000      2.471e-08      PASS
+T10_CNOT_2Q            2       2      0.000e+00   1.0000000000      0.000e+00      PASS
+T11_CZ_2Q              2       3      0.000e+00   1.0000000000      0.000e+00      PASS
+T12_BELL_2Q            2       2      1.211e-08   1.0000000000      1.577e-11      PASS
+T13_GHZ_3Q             3       3      1.211e-08   1.0000000000      1.577e-11      PASS
+T14_SWAP_4Q            4       4      0.000e+00   1.0000000000      0.000e+00      PASS
+T15_MIXED_5Q           5      12      9.723e-09   1.0000000000      7.388e-08      PASS
+T16_MIXED_6Q           6      14      3.544e-08   1.0000000000      7.707e-08      PASS
+T17_MIXED_7Q           7      16      3.947e-08   1.0000000000      2.543e-08      PASS
+T18_DEPTH20_8Q         8      20      4.102e-08   1.0000000000      9.405e-10      PASS
+---------------------------------------------------------------------------------------
+PASS: 18/18
+[PASS] HLS C-simulation meets the standardized 18-test project accuracy criteria.

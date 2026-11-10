@@ -1,0 +1,8 @@
+{
+ "environment": "OK",
+ "frame_sizes": "OK",
+ "rejection": "OK",
+ "acceptance": "OK",
+ "scaling": "OK",
+ "pytest": "OK"
+}
